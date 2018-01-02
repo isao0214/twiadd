@@ -18,6 +18,12 @@
         <div id="app">
             @{{ message }}
         </div>
+        <div id="app-2">
+            <span v-bind:title="message">
+                Hover your mouse over me for a few seconds
+                to see my dynamically bound title!
+            </span>
+        </div>
         <script src="js/app.js"></script>
     </body>
 </html>
