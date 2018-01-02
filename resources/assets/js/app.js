@@ -1,3 +1,4 @@
+import Vue from 'vue'
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -15,12 +16,9 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
-
-// ToDo: デバッグコード
 const app = new Vue({
     el: '#app',
     data: {
         message: 'Hello Vue!'
     }
-});
+})
