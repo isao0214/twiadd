@@ -44,6 +44,11 @@
             <button v-on:click="reverseMessage">Reverse Message</button>
         </div>
 
+        <div id="app-6">
+            <p>@{{ message }}</p>
+            <input v-model="message">
+        </div>
+
         <script src="js/app.js"></script>
     </body>
 </html>
