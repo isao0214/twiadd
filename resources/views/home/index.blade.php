@@ -31,6 +31,14 @@
             <span v-if="seen">Now you see me</span>
         </div>
 
+        <div id="app-4">
+            <ol>
+                <li v-for="todo in todos">
+                    @{{ todo.text }}
+                </li>
+            </ol>
+        </div>
+
         <script src="js/app.js"></script>
     </body>
 </html>
